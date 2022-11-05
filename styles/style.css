@@ -15,14 +15,15 @@
 header {
     background-color: black;
     color: white;
-    padding: 50px;
     text-align: center;
+    padding: 50px;
 }
 
 header h1 {
     font-family: var(--font2);
-    font-weight: normal;
-    font-size: 7vw;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 100px;
 }
 
 header p {
@@ -40,25 +41,22 @@ a:hover{
     text-decoration: underline;
 }
 
-.normal {
+.normal, .imagem {
     font-family: var(--font3);
     font-size: 3.5vw;
-    margin: 70px 25px;
+    margin: 7vw 2.5vw;
     line-height: 10vw;
 }
 
 .normal p {
-    padding: 40px 0px;
+    padding: 10px 0px;
 }
-
+    
 .imagem {
     background-size: cover;
-    font-family: var(--font3);
-    font-size: 3.5vw;
     padding: 7vw 0px;
-    line-height: 10vw;
     color: white;
-    margin: 70px 0px;
+    margin: 0px 0px;
 }
 
 #img1 {
@@ -70,10 +68,10 @@ a:hover{
 }
 
 .imagem p {
-    max-width: 43vw;
+    max-width: 650px;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.507);
-    margin: 0px 25px;
+    margin: 0px 2.5vw;
 }
 
 footer {
