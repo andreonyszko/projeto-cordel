@@ -44,6 +44,7 @@ section {
     font-family: var(--font3);
     padding: 5vw 30px;
     font-size: 3.5vw;
+    line-height: 8vw;
 }
 
 .imagem {
