@@ -4,6 +4,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 :root {
@@ -41,7 +42,7 @@ a:hover{
 
 section {
     font-family: var(--font3);
-    padding: 50px 30px;
+    padding: 5vw 30px;
     font-size: 3.5vw;
 }
 
